@@ -56,6 +56,6 @@ export const likePost = (id) =>{
         payload: response.data,
       })
     )
-    .catch(err=>console.log(err + 'yarraam'))
+    .catch(err=>console.log(err))
   };
 }
